@@ -54,6 +54,7 @@ function App() {
 
   useEffect(() => {
     if (query.city) handleSearch(query.city)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query.city])
 
   return (
